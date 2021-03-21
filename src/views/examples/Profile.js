@@ -88,7 +88,7 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
+                          href="https://www.linkedin.com/in/audrey-patterson31/"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
@@ -97,7 +97,7 @@ class Profile extends React.Component {
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
+                          href="mailto:audrey.patterson31@gmail.com"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading"><i class="fa fa-code"></i></span>
+                          <span className="description">Coder</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading"><i class="fa fa-paw"></i></span>
+                          <span className="description">Advocate</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading"><i class="ni ni-palette"></i></span>
+                          <span className="description">Artist</span>
                         </div>
                       </div>
                     </Col>
@@ -125,7 +125,7 @@ class Profile extends React.Component {
                   <div className="text-center mt-5">
                     <h3>
                       Audrey Patterson{" "}
-                      <span className="font-weight-light">, 34</span>
+                      <span className="font-weight-light"> </span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
@@ -144,7 +144,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Software Developer with a background in software training and implementation.
+                          Software Developer. Skilled in Software Product Training and Implementation. Lifelong learner. Creator. 
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
