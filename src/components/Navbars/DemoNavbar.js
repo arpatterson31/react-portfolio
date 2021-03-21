@@ -27,8 +27,6 @@ import {
   DropdownItem,
   DropdownToggle,
   UncontrolledDropdown,
-  Media,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -38,7 +36,6 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
 import argonReact from "assets/img/brand/argon-react.png";
 
 class DemoNavbar extends React.Component {
@@ -74,12 +71,6 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <img
-                  alt="..."
-                  src={reactWhite}
-                />
-              </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -134,7 +125,7 @@ class DemoNavbar extends React.Component {
                     >
                       <i className="fa fa-linkedin" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
+                        LinkedIn
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
