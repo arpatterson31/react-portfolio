@@ -25,6 +25,7 @@ import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
+import cfjeopardy from "assets/img/audrey/cfjeopardy.png";
 
 // reactstrap components
 import {
@@ -81,8 +82,8 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Changing the world, one project at a time{" "}
+                        <span><i className="fa fa-heart" /></span>
                       </h1>
                       <p className="lead text-white">
                         write what excites me in tech for lab.
@@ -118,33 +119,33 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                          <i class="fa fa-code"></i>
+                          <div className="icon icon-shape icon-shape-dark rounded-circle mb-4">
+                          <i className="fa fa-file-code-o" />
                           </div>
-                          <h6 className="text-primary text-uppercase">
-                            Project Name
+                          <h6 className="text-dark text-uppercase">
+                            Code Fellows Jeopardy
                           </h6>
                           <p className="description mt-3">
-                            Project Description
+                            A fun Jeopardy style trivia game to help 100 and 200 level Code Fellow students study for their final exams.
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
+                            <Badge color="dark" pill className="mr-1">
+                              HTML5
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
+                            <Badge color="dark" pill className="mr-1">
+                              CSS
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
+                            <Badge color="dark" pill className="mr-1">
+                              JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            color="dark"
+                            href="https://team-meow.github.io/CodeFellows-Jeopardy/"
+                            
                           >
-                            Learn more
+                            View App
                           </Button>
                         </CardBody>
                       </Card>
@@ -152,33 +153,33 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                          <i class="fa fa-code"></i>
+                          <div className="icon icon-shape icon-shape-dark rounded-circle mb-4">
+                          <i className="fa fa-file-code-o" />
                           </div>
-                          <h6 className="text-success text-uppercase">
-                            Project 2
+                          <h6 className="text-dark text-uppercase">
+                            Gallery of Horns
                           </h6>
                           <p className="description mt-3">
-                            Project 2 description
+                            App that allows the visitor to display images of horned animals by selecting the number of horns.
                           </p>
                           <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
+                            <Badge color="dark" pill className="mr-1">
+                              React
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
+                            <Badge color="dark" pill className="mr-1">
+                              Bootstrap/CSS
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
+                            <Badge color="dark" pill className="mr-1">
+                              JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            color="dark"
+                            href="https://sleepy-wiles-960877.netlify.app/"
+                            
                           >
-                            Learn more
+                            View App
                           </Button>
                         </CardBody>
                       </Card>
@@ -186,33 +187,33 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                          <i class="fa fa-code"></i>
+                          <div className="icon icon-shape icon-shape-dark rounded-circle mb-4">
+                          <i className="fa fa-file-code-o" />
                           </div>
-                          <h6 className="text-warning text-uppercase">
+                          <h6 className="text-dark text-uppercase">
                             Project for 301
                           </h6>
                           <p className="description mt-3">
                             Hold for 301 project
                           </p>
                           <div>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="dark" pill className="mr-1">
                               marketing
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="dark" pill className="mr-1">
                               product
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="dark" pill className="mr-1">
                               launch
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="warning"
+                            color="dark"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            
                           >
-                            Learn more
+                            View App
                           </Button>
                         </CardBody>
                       </Card>
@@ -222,6 +223,163 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+          
+
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="6">
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src={cfjeopardy}
+                  />
+                </Col>
+                <Col className="order-md-1" md="6">
+                  <div className="pr-md-5">
+                    <div className="icon icon-lg icon-shape icon-shape-dark shadow rounded-circle mb-5">
+                      <i className="fa fa-file-code-o" />
+                    </div>
+                    <h3>Code Fellows Jeopardy</h3>
+                    <p>
+                     Code Fellows Jeopardy is a fun way for 100 & 200 level students to prepare for their quizzes and final exams. This quiz game covers concepts learned during the 102 and 201 classes.
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="dark"
+                            >
+                              <i className="fa fa-code" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                            Five category, basic Jeopardy style trivia game. 
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="dark"
+                            >
+                              <i className="fa fa-code" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">Great use of CSS and JavaScript to display questions on a modal window and black out the cards that have been selected.
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="dark"
+                            >
+                              <i className="fa fa-code" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                              Intuitive and easy to use.
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+
+          <section className="section section-lg">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-2" md="6">
+                  <img
+                    alt="..."
+                    className="img-fluid floating"
+                    src="..."
+                  />
+                </Col>
+                <Col className="order-md-1" md="6">
+                  <div className="pr-md-5">
+                    <div className="icon icon-lg icon-shape icon-shape-dark shadow rounded-circle mb-5">
+                      <i className="fa fa-file-code-o" />
+                    </div>
+                    <h3>Placeholder for 301 project</h3>
+                    <p>
+                     301 project placeholder text
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="dark"
+                            >
+                              <i className="fa fa-code" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                            placeholder for 301 project 
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="dark"
+                            >
+                              <i className="fa fa-code" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                              placeholder for 301 project
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="dark"
+                            >
+                              <i className="fa fa-code" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                              placeholder for 301 project
+                            </h6>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
@@ -260,14 +418,12 @@ class Landing extends React.Component {
                 </Col>
                 <Col md="6">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                    <i class="fa fa-code"></i>
+                    <div className="icon icon-lg icon-shape icon-shape-default shadow rounded-circle mb-5">
+                    <i class="fa fa-heart"></i>
                     </div>
                     <h3>About Me</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      Software Developer based in Seattle, WA.
                     </p>
                     <p>
                       The kit comes with three pre-built pages to help you get
@@ -280,7 +436,7 @@ class Landing extends React.Component {
                       you're good to go.
                     </p>
                     <a
-                      className="font-weight-bold text-warning mt-5"
+                      className="font-weight-bold text-default mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >

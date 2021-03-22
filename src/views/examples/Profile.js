@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/audrey/headshot800x800.JPG";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -89,7 +89,6 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="https://www.linkedin.com/in/audrey-patterson31/"
-                          onClick={e => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -98,7 +97,6 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="mailto:audrey.patterson31@gmail.com"
-                          onClick={e => e.preventDefault()}
                           size="sm"
                         >
                           Message
