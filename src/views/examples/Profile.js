@@ -23,7 +23,8 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/audrey/profile2-800x800.jpg";
+import background from "assets/img/audrey/art-background2.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -38,7 +39,10 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
+            <div>
+              <img
+                src={background}
+              />  
               <span />
               <span />
               <span />
@@ -71,13 +75,11 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
                             src={profile}
                           />
-                        </a>
                       </div>
                     </Col>
                     <Col
@@ -87,9 +89,8 @@ class Profile extends React.Component {
                       <div className="card-profile-actions py-4 mt-lg-0">
                         <Button
                           className="mr-4"
-                          color="info"
+                          color="danger"
                           href="https://www.linkedin.com/in/audrey-patterson31/"
-                          onClick={e => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -98,7 +99,6 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="mailto:audrey.patterson31@gmail.com"
-                          onClick={e => e.preventDefault()}
                           size="sm"
                         >
                           Message
@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading"><i class="fa fa-code"></i></span>
-                          <span className="description">Coder</span>
+                          <span className="heading text-dark"><i class="fa fa-code"></i></span>
+                          <span className="description text-dark font-weight-bold">Coder</span>
                         </div>
                         <div>
-                          <span className="heading"><i class="fa fa-paw"></i></span>
-                          <span className="description">Advocate</span>
+                          <span className="heading text-dark"><i class="fa fa-paw"></i></span>
+                          <span className="description text-dark font-weight-bold">Advocate</span>
                         </div>
                         <div>
-                          <span className="heading"><i class="ni ni-palette"></i></span>
-                          <span className="description">Artist</span>
+                          <span className="heading text-dark"><i class="ni ni-palette"></i></span>
+                          <span className="description text-dark font-weight-bold">Artist</span>
                         </div>
                       </div>
                     </Col>
@@ -137,7 +137,7 @@ class Profile extends React.Component {
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      CodeFellows
+                      CodeFellows 2020-2021
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
@@ -146,9 +146,6 @@ class Profile extends React.Component {
                         <p>
                           Software Developer. Skilled in Software Product Training and Implementation. Lifelong learner. Creator. 
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>

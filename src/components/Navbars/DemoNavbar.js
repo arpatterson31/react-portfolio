@@ -36,7 +36,7 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import argonReact from "assets/img/brand/argon-react.png";
+
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -85,10 +85,7 @@ class DemoNavbar extends React.Component {
                   <Row>
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
-                        <img
-                          alt="..."
-                          src={argonReact}
-                        />
+                      
                       </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">
@@ -101,9 +98,9 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
+                    <DropdownToggle  nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <span className="nav-link-inner--text font-weight-bold">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/profile-page" tag={Link}>
