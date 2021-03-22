@@ -18,9 +18,9 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
 import cfjeopardy from "assets/img/audrey/cfjeopardy.png";
 import background from "assets/img/audrey/art-background2.jpg";
+import spaceNeedle from "assets/img/audrey/space-needle.jpg";
 
 // reactstrap components
 import {
@@ -79,7 +79,7 @@ class Landing extends React.Component {
                         <span><i className="fa fa-heart" /></span>
                       </h1>
                       <p className="lead text-white">
-                        write what excites me in tech for lab.
+                        I love that Technology is constantly changing. It allows me to keep my mind active as I continue to learn new things. If I can make a positive impact on the world through the projects I work on, then moving into this industry has been worth it.
                       </p>
                     </Col>
                   </Row>
@@ -377,10 +377,10 @@ class Landing extends React.Component {
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
-                  <Card className="bg-default shadow border-0">
+                  <Card className="bg-dark shadow border-0">
                     <CardImg
                       alt="..."
-                      src={cardImg}
+                      src={spaceNeedle}
                       top
                     />
                     <blockquote className="card-blockquote">
@@ -391,11 +391,11 @@ class Landing extends React.Component {
                         viewBox="0 0 583 95"
                       >
                         <polygon
-                          className="fill-default"
+                          className="fill-dark"
                           points="0,52 583,95 0,95"
                         />
                         <polygon
-                          className="fill-default"
+                          className="fill-dark"
                           opacity=".2"
                           points="0,42 583,95 683,0 0,95"
                         />
@@ -404,36 +404,32 @@ class Landing extends React.Component {
                         Audrey Patterson
                       </h4>
                       <p className="lead text-italic text-white">
-                        some more stuff about me
+                        {/* some more stuff about me */}
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
                 <Col md="6">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-default shadow rounded-circle mb-5">
+                    <div className="icon icon-lg icon-shape icon-shape-dark shadow rounded-circle mb-5">
                     <i class="fa fa-heart"></i>
                     </div>
-                    <h3>About Me</h3>
-                    <p className="lead">
+                    <h3 class="text-dark">About Me</h3>
+                    <p className="lead text-dark">
                       Software Developer based in Seattle, WA.
                     </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    <p class="text-dark">
+                      I am a software developer with a background in software training and implmentation. I want to make an impact on the world through the projects I work on and put out there. I am a big advocate for inclusion and diversity in the tech industry. I'm here to blaze a path for others who are like me.
                     </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    <p class="text-dark">
+                      Aside from being passionate about software development, in my spare time, you will find me raising my sassy 3 year old daughter, geeking out about the latest celebrity gossip, or binging on the all the cringy, reality-tv shows out there! 
                     </p>
                     <a
-                      className="font-weight-bold text-default mt-5"
+                      className="font-weight-bold text-dark mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      Thanks for stopping by!
                     </a>
                   </div>
                 </Col>

@@ -89,7 +89,7 @@ class Profile extends React.Component {
                       <div className="card-profile-actions py-4 mt-lg-0">
                         <Button
                           className="mr-4"
-                          color="info"
+                          color="danger"
                           href="https://www.linkedin.com/in/audrey-patterson31/"
                           size="sm"
                         >
@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading"><i class="fa fa-code"></i></span>
-                          <span className="description">Coder</span>
+                          <span className="heading text-dark"><i class="fa fa-code"></i></span>
+                          <span className="description text-dark font-weight-bold">Coder</span>
                         </div>
                         <div>
-                          <span className="heading"><i class="fa fa-paw"></i></span>
-                          <span className="description">Advocate</span>
+                          <span className="heading text-dark"><i class="fa fa-paw"></i></span>
+                          <span className="description text-dark font-weight-bold">Advocate</span>
                         </div>
                         <div>
-                          <span className="heading"><i class="ni ni-palette"></i></span>
-                          <span className="description">Artist</span>
+                          <span className="heading text-dark"><i class="ni ni-palette"></i></span>
+                          <span className="description text-dark font-weight-bold">Artist</span>
                         </div>
                       </div>
                     </Col>
@@ -137,7 +137,7 @@ class Profile extends React.Component {
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      CodeFellows
+                      CodeFellows 2020-2021
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
@@ -146,9 +146,6 @@ class Profile extends React.Component {
                         <p>
                           Software Developer. Skilled in Software Product Training and Implementation. Lifelong learner. Creator. 
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>

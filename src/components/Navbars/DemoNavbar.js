@@ -36,7 +36,7 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import argonReact from "assets/img/brand/argon-react.png";
+
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
