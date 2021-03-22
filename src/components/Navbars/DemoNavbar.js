@@ -98,9 +98,9 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
+                    <DropdownToggle  nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <span className="nav-link-inner--text font-weight-bold">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/profile-page" tag={Link}>
